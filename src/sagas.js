@@ -9,7 +9,7 @@ export function* watcherSaga() {
 function fetchJokes() {  
   return  axios({
     method: 'get',
-    url: 'http://api.icndb.com/jokes/random/32'
+    url: 'https://api.icndb.com/jokes/random/32'
   });   
 } 
 
